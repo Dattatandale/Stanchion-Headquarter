@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" >
+
+<test name="MicrosoftEdgeTest">
+  <parameter name="browser" value="MicrosoftEdge"></parameter>
+  <parameter name="username" value="stanchion"></parameter>
+  <parameter name="password" value="stan1234"></parameter>
+    <classes>
+      <class name="TesngPractise.ParallalBrowser"/>
+    </classes>
+  </test>
+
+  <test name="ChromeTest">
+  <parameter name="browser" value="Chrome"></parameter>
+  <parameter name="username" value="stanchion"></parameter>
+  <parameter name="password" value="stan1234"></parameter>
+    <classes>
+      <class name="TesngPractise.ParallalBrowser"/>
+    </classes>
+  </test>
+  
+  
+  
+</suite> <!-- Suite -->

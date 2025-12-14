@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test name="Test">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="com.set.testclass.TestHomePageSET"/>
+      <class name="com.set.testclass.TestLoginSET"/>
+      <class name="com.set.testclass.TestMDMPageSET"/>
+    </classes>
+  </test>
+  
+  <test name="Test">
+    <classes>
+      <class name="com.set.testclass.TestHomePageSET"/>
+      <class name="com.set.testclass.TestLoginSET"/>
+      <class name="com.set.testclass.TestMDMPageSET"/>
+    </classes>
+  </test>
+  
+  <test name="Test">
+    <classes>
+      <class name="com.set.testclass.TestHomePageSET"/>
+      <class name="com.set.testclass.TestLoginSET"/>
+      <class name="com.set.testclass.TestMDMPageSET"/>
+    </classes>
+  </test>  <!-- Test -->
+</suite> <!-- Suite -->

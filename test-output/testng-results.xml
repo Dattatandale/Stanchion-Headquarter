@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Executing TC1 of TestLoginSET]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18058" started-at="2025-08-14T06:26:43Z" finished-at="2025-08-14T06:27:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18058" started-at="2025-08-14T06:26:43Z" finished-at="2025-08-14T06:27:01Z">
+      <class name="com.set.testclass.TestLoginSET">
+        <test-method status="PASS" signature="beforesuit()[pri:0, instance:com.set.testclass.TestLoginSET@27efef64]" name="beforesuit" is-config="true" duration-ms="182" started-at="2025-08-14T11:56:43Z" finished-at="2025-08-14T11:56:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuit -->
+        <test-method status="PASS" signature="fetchPropertyValue()[pri:0, instance:com.set.testclass.TestLoginSET@27efef64]" name="fetchPropertyValue" is-config="true" duration-ms="22" started-at="2025-08-14T11:56:43Z" finished-at="2025-08-14T11:56:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchPropertyValue -->
+        <test-method status="PASS" signature="openset()[pri:0, instance:com.set.testclass.TestLoginSET@27efef64]" name="openset" is-config="true" duration-ms="5137" started-at="2025-08-14T11:56:43Z" finished-at="2025-08-14T11:56:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openset -->
+        <test-method status="PASS" signature="TC1_ValidateText()[pri:0, instance:com.set.testclass.TestLoginSET@27efef64]" name="TC1_ValidateText" duration-ms="172" started-at="2025-08-14T11:56:48Z" description="LoginApplicationTEst" finished-at="2025-08-14T11:56:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Executing TC1 of TestLoginSET]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC1_ValidateText -->
+        <test-method status="PASS" signature="closeset()[pri:0, instance:com.set.testclass.TestLoginSET@27efef64]" name="closeset" is-config="true" duration-ms="952" started-at="2025-08-14T11:56:49Z" finished-at="2025-08-14T11:56:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeset -->
+        <test-method status="PASS" signature="openset()[pri:0, instance:com.set.testclass.TestLoginSET@27efef64]" name="openset" is-config="true" duration-ms="2951" started-at="2025-08-14T11:56:50Z" finished-at="2025-08-14T11:56:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openset -->
+        <test-method status="PASS" signature="TC2_ValidateBtnEnables()[pri:0, instance:com.set.testclass.TestLoginSET@27efef64]" name="TC2_ValidateBtnEnables" duration-ms="205" started-at="2025-08-14T11:56:53Z" finished-at="2025-08-14T11:56:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_ValidateBtnEnables -->
+        <test-method status="PASS" signature="closeset()[pri:0, instance:com.set.testclass.TestLoginSET@27efef64]" name="closeset" is-config="true" duration-ms="2123" started-at="2025-08-14T11:56:53Z" finished-at="2025-08-14T11:56:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeset -->
+        <test-method status="PASS" signature="openset()[pri:0, instance:com.set.testclass.TestLoginSET@27efef64]" name="openset" is-config="true" duration-ms="4311" started-at="2025-08-14T11:56:55Z" finished-at="2025-08-14T11:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openset -->
+        <test-method status="PASS" signature="TC3_logintoSET()[pri:0, instance:com.set.testclass.TestLoginSET@27efef64]" name="TC3_logintoSET" duration-ms="1290" started-at="2025-08-14T11:56:59Z" finished-at="2025-08-14T11:57:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3_logintoSET -->
+        <test-method status="PASS" signature="closeset()[pri:0, instance:com.set.testclass.TestLoginSET@27efef64]" name="closeset" is-config="true" duration-ms="861" started-at="2025-08-14T11:57:00Z" finished-at="2025-08-14T11:57:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeset -->
+        <test-method status="PASS" signature="aftersuit()[pri:0, instance:com.set.testclass.TestLoginSET@27efef64]" name="aftersuit" is-config="true" duration-ms="1" started-at="2025-08-14T11:57:01Z" finished-at="2025-08-14T11:57:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuit -->
+      </class> <!-- com.set.testclass.TestLoginSET -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

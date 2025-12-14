@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="password" value="stan1234"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="username" value="stanchion"/>
+  <test name="MicrosoftEdgeTest">
+    <parameter name="password" value="stan1234"/>
+    <parameter name="browser" value="MicrosoftEdge"/>
+    <parameter name="username" value="stanchion"/>
+    <classes>
+      <class name="TesngPractise.ParallalBrowser"/>
+    </classes>
+  </test> <!-- MicrosoftEdgeTest -->
+  <test name="ChromeTest">
+    <parameter name="password" value="stan1234"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="username" value="stanchion"/>
+    <classes>
+      <class name="TesngPractise.ParallalBrowser"/>
+    </classes>
+  </test> <!-- ChromeTest -->
+  <test name="ChromeTest(failed)" parallel="tests">
+    <parameter name="password" value="stan1234"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="username" value="stanchion"/>
+    <classes>
+      <class name="TesngPractise.ParallalBrowser">
+        <methods>
+          <include name="TC3_closebrowser"/>
+          <include name="TC3_closebrowser"/>
+          <include name="TC1_openbrowser"/>
+          <include name="TC1_openbrowser"/>
+          <include name="TC2_logintoApp" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TesngPractise.ParallalBrowser -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

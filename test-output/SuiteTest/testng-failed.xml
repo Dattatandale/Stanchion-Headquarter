@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SuiteTest]">
+  <test name="Test1">
+    <classes>
+      <class name="com.set.testclass.TestHomePageSET"/>
+      <class name="com.set.testclass.TestLoginSET"/>
+      <class name="com.set.testclass.TestMDMPageSET"/>
+    </classes>
+  </test> <!-- Test1 -->
+  <test name="Test1(failed)">
+    <classes>
+      <class name="com.set.testclass.TestMDMPageSET">
+        <methods>
+          <include name="TC_ValidatePageTitle"/>
+          <include name="closeset"/>
+          <include name="openset"/>
+        </methods>
+      </class> <!-- com.set.testclass.TestMDMPageSET -->
+      <class name="com.set.testclass.TestLoginSET">
+        <methods>
+          <include name="TC2_ValidateBtnEnables"/>
+          <include name="TC3_logintoSET"/>
+          <include name="openset"/>
+          <include name="closeset"/>
+          <include name="TC1_ValidateText"/>
+        </methods>
+      </class> <!-- com.set.testclass.TestLoginSET -->
+      <class name="com.set.testclass.TestHomePageSET">
+        <methods>
+          <include name="closeset"/>
+          <include name="fetchPropertyValue"/>
+          <include name="TC1_ValidateIsElementsDisplayed"/>
+          <include name="LogintoSETApp"/>
+          <include name="TC2_ValidateIsElementsEnables"/>
+          <include name="TC3_NavigateToMDM"/>
+        </methods>
+      </class> <!-- com.set.testclass.TestHomePageSET -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [SuiteTest] -->

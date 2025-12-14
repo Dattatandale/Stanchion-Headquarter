@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.set.testclass.TestLoginSET">
+        <methods>
+          <include name="TC2_ValidateBtnEnables"/>
+          <include name="TC3_logintoSET"/>
+          <include name="aftersuit"/>
+          <include name="fetchPropertyValue"/>
+          <include name="openset"/>
+          <include name="beforesuit"/>
+          <include name="closeset"/>
+          <include name="TC1_ValidateText"/>
+        </methods>
+      </class> <!-- com.set.testclass.TestLoginSET -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
